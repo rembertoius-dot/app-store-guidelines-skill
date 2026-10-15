@@ -1,0 +1,13 @@
+The reference files in skills/app-store-guidelines/references/ are copied or
+condensed from these Apple Developer pages, captured 2026-10-15:
+
+- https://developer.apple.com/app-store/review/guidelines/
+- https://developer.apple.com/app-store/asset-best-practices/
+- https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications
+- https://developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications
+
+That material is (c) Apple Inc. All rights reserved. It is reproduced here so
+an AI agent can quote the exact rule and number instead of guessing, and it is
+not licensed under this repository's MIT license. Apple updates these pages;
+the live page always wins. Run `python3 scripts/refresh.py` to pull a fresh
+copy.
