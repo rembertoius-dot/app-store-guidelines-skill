@@ -64,6 +64,11 @@ Local copy of three Apple pages: the asset best practices, the screenshot and ap
 - In-App Events: both 16:9 and 9:16 media, complements the badge.
 - Metadata: name ≤30 chars, no prices or claims, IAP requirements disclosed, honest age rating, specific What's New, review notes describe every non-obvious feature, demo account or demo mode, backend live.
 
+## If a code audit cites these rules, check them here first
+Two rules in common audit checklists (including apple-appstore-reviewer) are older than Apple's current text:
+- **4.8 Login Services.** Not "Sign in with Apple is required". Any equivalent login that limits data to name and email, lets users hide their email, and doesn't collect interactions for ads without consent satisfies it.
+- **3.1.1(a) / 3.1.3 External purchase links.** On the United States storefront, buttons and links to other purchase methods are allowed without an entitlement. The blanket "no external purchase links" finding applies to other storefronts only.
+
 ## Common mistakes
 - Quoting a guideline from memory. The last sentence of 2.3.8 is about keeping icons and names consistent, not a generic "no objectionable content" line; read the file.
 - Calling the required size "6.9 inch" or "6.7 inch". Apple's page names classes by Dynamic Island / Face ID / Home button and requires the **medium** Dynamic Island set.
